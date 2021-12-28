@@ -1,0 +1,43 @@
+html{
+    background: url('https://images.unsplash.com/photo-1640472609003-90bec7799a8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80');
+    background-size: 1300px 800px;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+h1{
+    text-align: center;
+    font-family: 'Vujahday Script', cursive;
+    color: chartreuse;
+}
+.clock-face{
+    border: 22px solid white;
+    height: 60%;
+    width: 30%;
+    position: absolute;
+    margin: 50px 100px;
+    border-radius: 50%;
+}
+.clock{
+    margin:50px 316px;
+    height: 100%;
+  
+}
+.hand{
+    width: 50%;
+    height: 6px;
+    background:rgb(54, 219, 84);
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.min-hand{
+    background: rgb(240, 159, 38);
+}
+.hour-hand{
+    background: rgb(30, 233, 240);
+}
